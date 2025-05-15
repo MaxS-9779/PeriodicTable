@@ -20,7 +20,9 @@
             box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s, box-shadow 0.3s;
             width: 640px;
-            height: 452px;            
+            height: 452px;
+            max-width: 100%;
+            height: auto;            
         }
 
         img:hover {
